@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.logo{
+    width: 170px;
+}
+
+/***Section 1***/
+
+.__section-1{
+    background-image: url('../images/section-1-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.__section-1-title{
+    text-align: left;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #f3f3f3;
+    width: 100%;
+    max-width: 900px;
+}
+
+.__section-1-title span{
+    color: red;
+}
+
+/***Section 2***/
+
+.__section-2{
+    padding: 60px 0;
+    background: #00040f;
+}
+
+.__section-2-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #f3f3f3;
+    line-height: 1;
+}
+
+.__section-2-subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #f3f3f3;
+    line-height: 1;
+}
+
+.__section-2-text{
+    color: #D2D2D2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.__section-2-button{
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 30px;
+    box-shadow: 0px 4px 26px 0px rgba(255, 0, 0, 0.35);
+    border-radius: 7px;
+    background-color: #ff3c00;
+    color: #f3f3f3;
+    text-align: center;
+    transition: all .3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+.__section-2-button:hover{
+    transform: scale(0.9);
+}
+
+/***Section 3***/
+
+.__section-3{
+    padding: 130px 0;
+    background-image: url('../images/section-3-banner.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.__section-3-box{
+    border-radius: 15px;
+    border: 1px solid #ff3c00;
+    padding: 2rem 1rem;
+    height: 100%;
+}
+
+.__section-3-title{
+    line-height: 1;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #f3f3f3;
+}
+
+.__section-3-title span{
+    color: #ff3c00;
+}
+
+.__section-3-text{
+    color: #FFF;
+    font-size: 16px;
+}
+
+.__section-3-text span{
+    color: #ff3c00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.result{
+    width: 100%;
+    padding: 60px 0;
+    background-color: #FFF;
+}
+
+.result_box{
+    border: 1px solid #ff3c00;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.result-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #ff3c00;
+    margin: 0;
+}
+
+.result-text{
+    color: #7A7A7A;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+}
+
+/***Section 4 ***/
+
+.__section-4{
+    padding: 90px 0;
+    background-color: #00040f;
+}
+
+.__section-4-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #f3f3f3;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.__section-4-title span{
+    color: #ff3c00;
+}
+
+.__section-4-box{
+    border: 1px solid #ff3c00;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.__section-4-box svg{
+    width: 50px;
+    height: 50px;
+    fill: #f3f3f3;
+    margin-bottom: 20px;
+}
+
+.__section-4-text{
+    font-size: 18px;
+    color: #f3f3f3;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.__section-4-cases{
+    padding: 60px 0;
+    background-color: #FFF;
+}
+
+.__section-4-cases .row div iframe{
+    border: 2px solid #ff3c00;
+}
+
+.pg-sz .__section-4-text{
+    font-size: 20px;
+    text-align: left;
+}
+
+/***Section 5***/
+
+.__section-5{
+    padding: 90px 0;
+}
+
+.__section-5-title{
+    color: #00040f;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.4em;
+    letter-spacing: -1.9px;
+    text-align: center;
+}
+
+.__section-5-title span{
+    color: #ff3c00;
+}
+
+.__section-5-text{
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#form label{
+    width: 100%;
+    font-size: 17px;
+    font-style: normal;
+    color: #333333;
+    line-height: 2em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#form label span{
+    color: #ff3c00;
+}
+
+#form .input_form{
+    width: 100%;
+    background-color: #ffffff;
+    border-color: #FF3C0057;
+    border-width: 0px 0px 2px 0px;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: 600;
+    min-height: 40px;
+    line-height: 1.4;
+}
+
+#form .input_form::placeholder{
+    color: #ff3c00;
+}
+
+#form .input_form:focus-visible{
+    outline: #7A7A7A;
+}
+
+/***Footer */
+
+footer{
+    padding: 90px 0;
+    background-color: #00040f;
+}
+
+footer h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #FFF;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+}
+
+footer ul li span svg{
+    width: 20px;
+    height: 20px;
+    fill: red;
+    margin-right: 5px;
+}
+
+footer ul li:hover svg{
+    fill: white;
+}
+
+footer ul li span{
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+/***Whats Modal ***/
+
+#handleWhatsapp{
+    width: 270px;
+    background-color: #FFF;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    padding: 12px 0px 0px 0px;
+    box-shadow: 4px 4px 21px -8px rgba(0, 0, 0, 0.39);
+    border: solid #f0f0f0 1px;
+    z-index: 2;
+}
+
+.whats_form_content{
+    position: relative;
+    z-index: 3;
+}
+
+.form_header{
+    width: 100%;
+    display: flex;
+    padding: 0px 2%;
+}
+
+.form_header .btn-close{
+    width: 1em!important;
+    height: 1em!important;
+    font-size: 0.8em;
+}
+
+.form_header img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    z-index: 5;
+}
+
+.form_header p{
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.form_content label{
+    color: #646464;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.form_content{
+    padding: 0 5%;
+}
+
+.whats_form_button{
+    background-color: #46c956;
+    width: 100%;
+    display: block;
+    border: none;
+    color: #FFF;
+    height: 40px;
+    font-weight: bold;
+}
+
+.fadeEffect {
+    -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
+    transform: translateY(50px) rotate(-5deg) translateZ(0);
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    opacity: 0;
+}
+
+.bottom-right.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+
+@media screen and (max-width:768px){
+    .__section-1{
+        height: 70vh;
+    }
+    .__section-3{
+        padding: 120px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width:578px){
+    #iframes_height iframe{
+        height: 270px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .__section-1-title{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:400px){
+    #iframes_height iframe{
+        height: 200px;
+    }
+}
+
+.text-flip{
+    display: inline-block;
+    perspective: 1000px;
+}
+
+
+.text-flip:nth-of-type(1) {
+    animation-delay: .1s;
+    animation-name: flip_letter;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.text-flip:nth-of-type(2) {
+    animation-delay: .3s;
+    animation-name: flip_letter;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.text-flip:nth-of-type(3) {
+    animation-delay: .5s;
+    animation-name: flip_letter;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flip_letter {
+    0%{
+        transform: rotateY(0deg);
+    }
+
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+  
+
+
